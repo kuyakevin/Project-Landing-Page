@@ -84,3 +84,40 @@
     width: 351px;
     color: white;
 }
+
+.info-container {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.random-info {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.pictures-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 130px;
+    height: 420px;
+}
+
+.picture {
+    display: flex;
+    width: 163px;
+    text-align: center;
+    height: 220px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picture-placeholder {
+    display: flex;
+    height: 155px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
