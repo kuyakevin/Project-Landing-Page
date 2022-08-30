@@ -71,8 +71,11 @@
     color: #E5E7EB;
 }
 
-.signup {
+.signup,
+.signup-2 {
     background-color: #3882f6;
+    border: 2px none;
+    color: #fff;
     border-radius: 10px;
     width: 80px;
     height: 40px;
@@ -83,10 +86,6 @@
     padding: 52px;
     width: 351px;
     color: white;
-}
-
-.info-container {
-    border: 1px solid rgb(0, 0, 0);
 }
 
 .random-info {
@@ -120,4 +119,66 @@
     height: 155px;
     border: 5px solid #3882F6;
     border-radius: 20px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 465px;
+    padding: 206px;
+    justify-content: center;
+}
+
+.quote-main,
+.quote-source {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-source {
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    padding: 20px;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 150px;
+    border-radius: 10px;
+}
+
+.call-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.call-subtext {
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.signup-2 {
+    border: 1px solid white;
+}
+
+.footer-container {
+    background-color: #1F2937;
+    color: #E5E7EB
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 17px;
 }
